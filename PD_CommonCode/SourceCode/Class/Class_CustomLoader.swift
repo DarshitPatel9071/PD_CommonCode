@@ -10,7 +10,7 @@ import Foundation
 import Toast_Swift
 import Lottie
 
-class CustomLoader{
+public class CustomLoader{
     
     private static var bgview = UIView()
 

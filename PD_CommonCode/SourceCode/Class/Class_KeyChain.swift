@@ -8,7 +8,7 @@
 import Foundation
 import KeychainSwift
 
-class KeychainAccess{
+public class KeychainAccess{
     
     // STRING
     class func saveString(data:String,forKey:String){

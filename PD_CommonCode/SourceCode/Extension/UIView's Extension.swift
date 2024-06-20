@@ -30,11 +30,19 @@ extension UIView{
     }
     
     // For Set CornerRadius
-    @IBInspectable var cornerRadius : CGFloat{
+    @IBInspectable var cr_Phone : CGFloat{
         get{
-            return self.cornerRadius
+            return self.cr_Phone
         }set{
-            layer.cornerRadius = isIPhoneDevice ?  newValue : newValue*1.5
+            layer.cornerRadius = isIPhoneDevice ?  newValue : 0
+        }
+    }
+    
+    @IBInspectable var cr_Pad : CGFloat{
+        get{
+            return self.cr_Pad
+        }set{
+            layer.cornerRadius = isIPhoneDevice ?  0 : newValue
         }
     }
     

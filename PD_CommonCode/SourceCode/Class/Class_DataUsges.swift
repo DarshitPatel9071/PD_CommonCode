@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct DataUsageInfo {
+public struct DataUsageInfo {
     var wifiReceived: UInt64 = 0
     var wifiSent: UInt64 = 0
     var wirelessWanDataReceived: UInt64 = 0

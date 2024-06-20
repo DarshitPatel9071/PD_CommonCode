@@ -10,7 +10,7 @@ import UIKit
 import Foundation
 
 
-class CoredataManager{
+public class CoredataManager{
     static let manager:CoredataManager = CoredataManager()
     
     enum ENTITY:String{

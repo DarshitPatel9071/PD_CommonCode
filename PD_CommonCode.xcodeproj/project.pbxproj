@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88891E692C2488A100A040CC /* CommonErrorAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88891E672C2488A100A040CC /* CommonErrorAlert.xib */; };
+		88891E6A2C2488A100A040CC /* CommonErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88891E682C2488A100A040CC /* CommonErrorAlert.swift */; };
 		888B8ECA2C20921900FE80B4 /* PD_CommonCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 888B8EC92C20921900FE80B4 /* PD_CommonCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		888B8ED72C2092DD00FE80B4 /* loader_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 888B8ED62C2092DD00FE80B4 /* loader_animation.json */; };
-		888B8EDA2C2092F800FE80B4 /* Class_LocalNotificationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B8ED82C2092F800FE80B4 /* Class_LocalNotificationDetail.swift */; };
-		888B8EDB2C2092F900FE80B4 /* Const File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B8ED92C2092F800FE80B4 /* Const File.swift */; };
 		888B8EE62C20932A00FE80B4 /* Class_CoredataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B8EDC2C20932A00FE80B4 /* Class_CoredataManager.swift */; };
 		888B8EE72C20932A00FE80B4 /* Class_CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B8EDD2C20932A00FE80B4 /* Class_CustomAnnotation.swift */; };
 		888B8EE82C20932A00FE80B4 /* Class_PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B8EDE2C20932A00FE80B4 /* Class_PermissionManager.swift */; };
@@ -27,14 +27,16 @@
 		888B8EF92C20935400FE80B4 /* UITextField's Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B8EF32C20935300FE80B4 /* UITextField's Extension.swift */; };
 		888B8EFA2C20935400FE80B4 /* UIView's Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B8EF42C20935300FE80B4 /* UIView's Extension.swift */; };
 		888B8EFB2C20935400FE80B4 /* String Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B8EF52C20935400FE80B4 /* String Extension.swift */; };
+		88EC74782C21E79200B07019 /* Const File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EC74762C21E79200B07019 /* Const File.swift */; };
+		88EC74792C21E79200B07019 /* Class_LocalNotificationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EC74772C21E79200B07019 /* Class_LocalNotificationDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88891E672C2488A100A040CC /* CommonErrorAlert.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonErrorAlert.xib; sourceTree = "<group>"; };
+		88891E682C2488A100A040CC /* CommonErrorAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonErrorAlert.swift; sourceTree = "<group>"; };
 		888B8EC62C20921900FE80B4 /* PD_CommonCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PD_CommonCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		888B8EC92C20921900FE80B4 /* PD_CommonCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PD_CommonCode.h; sourceTree = "<group>"; };
 		888B8ED62C2092DD00FE80B4 /* loader_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loader_animation.json; sourceTree = "<group>"; };
-		888B8ED82C2092F800FE80B4 /* Class_LocalNotificationDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Class_LocalNotificationDetail.swift; sourceTree = "<group>"; };
-		888B8ED92C2092F800FE80B4 /* Const File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Const File.swift"; sourceTree = "<group>"; };
 		888B8EDC2C20932A00FE80B4 /* Class_CoredataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Class_CoredataManager.swift; sourceTree = "<group>"; };
 		888B8EDD2C20932A00FE80B4 /* Class_CustomAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Class_CustomAnnotation.swift; sourceTree = "<group>"; };
 		888B8EDE2C20932A00FE80B4 /* Class_PermissionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Class_PermissionManager.swift; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		888B8EF32C20935300FE80B4 /* UITextField's Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField's Extension.swift"; sourceTree = "<group>"; };
 		888B8EF42C20935300FE80B4 /* UIView's Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView's Extension.swift"; sourceTree = "<group>"; };
 		888B8EF52C20935400FE80B4 /* String Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String Extension.swift"; sourceTree = "<group>"; };
+		88EC74762C21E79200B07019 /* Const File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Const File.swift"; sourceTree = "<group>"; };
+		88EC74772C21E79200B07019 /* Class_LocalNotificationDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Class_LocalNotificationDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88891E662C2488A100A040CC /* Common Alert */ = {
+			isa = PBXGroup;
+			children = (
+				88891E672C2488A100A040CC /* CommonErrorAlert.xib */,
+				88891E682C2488A100A040CC /* CommonErrorAlert.swift */,
+			);
+			path = "Common Alert";
+			sourceTree = "<group>";
+		};
 		888B8EBC2C20921900FE80B4 = {
 			isa = PBXGroup;
 			children = (
@@ -83,23 +96,25 @@
 		888B8EC82C20921900FE80B4 /* PD_CommonCode */ = {
 			isa = PBXGroup;
 			children = (
-				888B8ED02C20923300FE80B4 /* Source Code */,
+				888B8ED02C20923300FE80B4 /* SourceCode */,
 				888B8EC92C20921900FE80B4 /* PD_CommonCode.h */,
 			);
 			path = PD_CommonCode;
 			sourceTree = "<group>";
 		};
-		888B8ED02C20923300FE80B4 /* Source Code */ = {
+		888B8ED02C20923300FE80B4 /* SourceCode */ = {
 			isa = PBXGroup;
 			children = (
+				88891E662C2488A100A040CC /* Common Alert */,
 				888B8ED22C20924600FE80B4 /* Class */,
-				888B8ED12C20923C00FE80B4 /* Extension's */,
+				888B8ED12C20923C00FE80B4 /* Extension */,
+				888B8ED42C20929800FE80B4 /* Const */,
 				888B8ED32C20928A00FE80B4 /* Resources */,
 			);
-			path = "Source Code";
+			path = SourceCode;
 			sourceTree = "<group>";
 		};
-		888B8ED12C20923C00FE80B4 /* Extension's */ = {
+		888B8ED12C20923C00FE80B4 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				888B8EF22C20935300FE80B4 /* All Common Extension's.swift */,
@@ -109,7 +124,7 @@
 				888B8EF42C20935300FE80B4 /* UIView's Extension.swift */,
 				888B8EF12C20935300FE80B4 /* UIViewController's Extension.swift */,
 			);
-			path = "Extension's";
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		888B8ED22C20924600FE80B4 /* Class */ = {
@@ -133,18 +148,17 @@
 			isa = PBXGroup;
 			children = (
 				888B8ED52C20929F00FE80B4 /* JSON Animation */,
-				888B8ED42C20929800FE80B4 /* Const File */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		888B8ED42C20929800FE80B4 /* Const File */ = {
+		888B8ED42C20929800FE80B4 /* Const */ = {
 			isa = PBXGroup;
 			children = (
-				888B8ED82C2092F800FE80B4 /* Class_LocalNotificationDetail.swift */,
-				888B8ED92C2092F800FE80B4 /* Const File.swift */,
+				88EC74772C21E79200B07019 /* Class_LocalNotificationDetail.swift */,
+				88EC74762C21E79200B07019 /* Const File.swift */,
 			);
-			path = "Const File";
+			path = Const;
 			sourceTree = "<group>";
 		};
 		888B8ED52C20929F00FE80B4 /* JSON Animation */ = {
@@ -225,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88891E692C2488A100A040CC /* CommonErrorAlert.xib in Resources */,
 				888B8ED72C2092DD00FE80B4 /* loader_animation.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,17 +253,18 @@
 			files = (
 				888B8EED2C20932A00FE80B4 /* Class_KeyChain.swift in Sources */,
 				888B8EE62C20932A00FE80B4 /* Class_CoredataManager.swift in Sources */,
-				888B8EDB2C2092F900FE80B4 /* Const File.swift in Sources */,
 				888B8EF82C20935400FE80B4 /* All Common Extension's.swift in Sources */,
+				88EC74782C21E79200B07019 /* Const File.swift in Sources */,
 				888B8EF62C20935400FE80B4 /* UIImageView Extension .swift in Sources */,
 				888B8EFA2C20935400FE80B4 /* UIView's Extension.swift in Sources */,
 				888B8EEC2C20932A00FE80B4 /* Class_CustomLoader.swift in Sources */,
 				888B8EF92C20935400FE80B4 /* UITextField's Extension.swift in Sources */,
+				88891E6A2C2488A100A040CC /* CommonErrorAlert.swift in Sources */,
+				88EC74792C21E79200B07019 /* Class_LocalNotificationDetail.swift in Sources */,
 				888B8EE72C20932A00FE80B4 /* Class_CustomAnnotation.swift in Sources */,
 				888B8EEE2C20932A00FE80B4 /* Class_LocalNotificationManger.swift in Sources */,
 				888B8EEA2C20932A00FE80B4 /* Class_GAD.swift in Sources */,
 				888B8EE82C20932A00FE80B4 /* Class_PermissionManager.swift in Sources */,
-				888B8EDA2C2092F800FE80B4 /* Class_LocalNotificationDetail.swift in Sources */,
 				888B8EEF2C20932A00FE80B4 /* ClassQRCodeReader.swift in Sources */,
 				888B8EEB2C20932A00FE80B4 /* Class_DataUsges.swift in Sources */,
 				888B8EE92C20932A00FE80B4 /* Class_DateFormat.swift in Sources */,

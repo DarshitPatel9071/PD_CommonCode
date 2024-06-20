@@ -10,7 +10,7 @@ import Foundation
 //import SwiftyJSON
 import UserNotifications
 
-class LocalNotificationManager:NSObject{
+public class LocalNotificationManager:NSObject{
     
     let center = UNUserNotificationCenter.current() // notification center var
     private var objNotification:Class_LocalNotificationDetail!

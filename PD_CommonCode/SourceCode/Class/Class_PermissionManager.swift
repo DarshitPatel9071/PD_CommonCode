@@ -17,7 +17,7 @@ struct SETTING_APP_URL{
     static let wifi = "App-Prefs:root=WIFI"
 }
 
-class ClassPermissionManager : NSObject{
+public class ClassPermissionManager : NSObject{
     
     //MARK: - PUBLIC VARIABLE'S
     static let manager:ClassPermissionManager = ClassPermissionManager()

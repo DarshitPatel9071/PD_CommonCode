@@ -15,9 +15,8 @@ Pod::Spec.new do |spec|
   spec.license               = { :type => "MIT", :file => "LICENSE" }
   spec.author                = { "Darshit Patel" => "" }
   spec.source        	     = { :git => "https://github.com/DarshitPatel9071/PD_CommonCode.git", :tag => "#{spec.version}"}
-  spec.source_files          = "PD_CommonCode/**/*.{swift}"
   spec.resources             = "PD_CommonCode/**/*.{png,storyboard,xib,xcassets,json}"
-  spec.ios.deployment_target = '12.0'
+  spec.ios.deployment_target = '13.0'
   spec.swift_versions        = "5.0"
   spec.dependency              'Firebase'
   spec.dependency              'Alamofire'
@@ -28,5 +27,6 @@ Pod::Spec.new do |spec|
   spec.dependency              'FirebaseRemoteConfig'
   spec.dependency              'Google-Mobile-Ads-SDK'
   spec.static_framework      = true
+  spec.source_files          = 'PD_CommonCode/**/*.{swift}'
 
 end

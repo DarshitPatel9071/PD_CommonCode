@@ -7,7 +7,7 @@
 
 import Foundation
 
-class DateFormat{
+public class DateFormat{
     
     enum FORMAT:String{
         case UTC = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"

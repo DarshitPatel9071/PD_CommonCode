@@ -10,7 +10,7 @@ protocol ClassQRCodeReader {
 }
 
 
-class AVCodeReader: NSObject {
+public class AVCodeReader: NSObject {
     fileprivate(set) var videoPreview = CALayer()
 
     fileprivate var captureSession: AVCaptureSession?
